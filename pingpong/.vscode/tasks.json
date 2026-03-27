@@ -6,11 +6,12 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                "-o", "pong",
                 "main.cpp",
-                "-o", "ping_pong",
                 "-I/opt/homebrew/include",
                 "-L/opt/homebrew/lib",
                 "-lSDL2",
+                "-lSDL2_ttf",
                 "-D_THREAD_SAFE"
             ],
             "group": {

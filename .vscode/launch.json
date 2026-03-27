@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/cem/Documents/cppIntermediateLessons/ping pong/pingpong",
-      "program": "/Users/cem/Documents/cppIntermediateLessons/ping pong/pingpong/pong"
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
     }
   ]
 }
