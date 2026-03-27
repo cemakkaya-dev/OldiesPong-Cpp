@@ -1,12 +1,5 @@
-#include "SDL2/SDL_events.h"
-#include "SDL2/SDL_pixels.h"
-#include "SDL2/SDL_rect.h"
-#include "SDL2/SDL_render.h"
-#include "SDL2/SDL_surface.h"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
-#include <cstddef>
-#include <iostream>
 #include <string>
 
 int main() {
