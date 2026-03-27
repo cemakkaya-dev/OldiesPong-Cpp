@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ping_pong",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "main.cpp",
+                "-o", "ping_pong",
+                "-I/opt/homebrew/include",
+                "-L/opt/homebrew/lib",
+                "-lSDL2",
+                "-D_THREAD_SAFE"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
