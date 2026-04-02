@@ -1,0 +1,12 @@
+# Compiled binaries
+ping_pong
+pong
+
+# Build output
+build/
+
+# macOS
+.DS_Store
+
+# Object files
+*.o
